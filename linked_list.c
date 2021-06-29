@@ -28,7 +28,8 @@ List *append(List *tail, int next_val)
 
 void destroy(List *head)
 {
-    // TODO
+    assert(head != NULL);
+    free(head);
 }
 
 void debug_print(List *head)
