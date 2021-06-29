@@ -1,12 +1,7 @@
 #include <stdio.h>
 #include <assert.h>
 #include <stdlib.h>
-
-typedef struct _List
-{
-    int val;
-    struct _List *next;
-} List;
+#include "linked_list.h"
 
 /// Returns: first container
 List *construct(int val)
